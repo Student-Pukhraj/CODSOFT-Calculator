@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 15px 70px;
 }
 
 .calculator {
@@ -53,4 +54,10 @@ form input.equal {
 
 form input.operator {
     color: #33ffd8;
+}
+
+.d-flex {
+    display: flex !important;
+    position: absolute;
+    right: 10px;
 }
